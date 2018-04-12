@@ -7,7 +7,8 @@ $(document).ready(function() {
                 return val.id == rnd;
             });
             json.forEach(function(val) {
-                html += "<p>" + val.quote + "</p>"
+                html += "<p id='quote-text'>\"" + val.quote + "\"</p>"
+				html += "<p id='who-text'><em> --" + val.who + "</em></p>"
             });
             $(".message").html(html);
         });
