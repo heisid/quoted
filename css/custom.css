@@ -1,5 +1,19 @@
-#header {
-	font-size: 40px;
+body, html {
+	font-family: "Open Sans", sans-serif;
+}
+
+.topright {
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
+
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 #quote-text {
@@ -8,8 +22,4 @@
 
 #who-text {
 	text-align: right;
-}
-
-.myquote {
-	color: white;
 }
