@@ -1,6 +1,27 @@
-body, html {
+body,
+html {
 	font-family: "Open Sans", sans-serif;
+	color: whitesmoke;
 }
+
+#bg {
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+}
+
+#bg img {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+	margin: auto; 
+	min-width: 50%;
+	min-height: 50%;
+  }
 
 .topright {
 	position: absolute;
@@ -17,7 +38,9 @@ body, html {
 }
 
 /* Remove ugly after-pressed effect */
-.btn:focus, .btn:active {
+
+.btn:focus,
+.btn:active {
 	outline: none !important;
 	box-shadow: none !important;
 }
@@ -27,5 +50,5 @@ body, html {
 }
 
 #who-text {
-	text-align: right;
+	text-align: left;
 }

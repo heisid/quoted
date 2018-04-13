@@ -1,6 +1,6 @@
 $(document).ready(function() {
     function generateQuote() {
-        $.getJSON("https://gist.githubusercontent.com/heisid/6663a7f5d3aa77e8c597e7bdc7f3f514/raw/ed1951d80e37e4436379e6706a136a08bbbaadb8/quoted.json", function(json) {
+        $.getJSON("js/quote.json", function(json) {
             // console.log("JSON Length = " + json.length);
             var html = "";
             var quote = "";
