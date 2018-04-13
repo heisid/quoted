@@ -16,6 +16,12 @@ body, html {
 	text-align: center;
 }
 
+/* Remove ugly after-pressed effect */
+.btn:focus, .btn:active {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
 #quote-text {
 	font-size: 30px;
 }
