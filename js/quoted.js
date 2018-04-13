@@ -14,5 +14,7 @@ $(document).ready(function() {
         });
     };
     generateQuote();
-    $("#getQuote").on("click", generateQuote());
+    $("#getQuote").on("click", function() {
+        generateQuote();
+    });
 });
